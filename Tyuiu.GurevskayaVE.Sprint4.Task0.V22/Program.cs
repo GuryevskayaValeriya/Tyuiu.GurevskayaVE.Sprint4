@@ -41,7 +41,6 @@ namespace Tyuiu.GurevskayaVE.Sprint4.Task0.V22
                 Console.WriteLine(array[i]);
             }
             
-
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 

@@ -17,7 +17,7 @@ namespace Tyuiu.GurevskayaVE.Sprint4.Task0.V22.Lib
                 if (array[i] % 2 != 0)
                     s += array[i];
             }
-            return s;
+            return s; 
         }
     }
 }
