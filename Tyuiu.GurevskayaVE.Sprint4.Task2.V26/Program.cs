@@ -20,7 +20,7 @@ namespace Tyuiu.GurevskayaVE.Sprint4.Task2.V26
             Console.WriteLine("* Выполнила: Гурьевская В.Е. | ПКТб-23-2                                  *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Подсчитать произведение нечетных элементов массива.                       *");
+            Console.WriteLine("* Подсчитать произведение нечетных элементов массива.                     *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
