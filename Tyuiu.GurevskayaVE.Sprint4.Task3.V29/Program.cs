@@ -32,7 +32,11 @@ namespace Tyuiu.GurevskayaVE.Sprint4.Task3.V29
 
             DataService ds = new DataService();
 
-            int[,] mas = new int[5, 5] { { 9, 9, 8, 6, 9 }, { 5, 8, 8, 8, 7 }, { 6, 5, 9, 7, 9 }, { 7, 7, 9, 7, 8 }, { 8, 5, 8, 5, 5 } };
+            int[,] mas = new int[5, 5] { { 9, 9, 8, 6, 9 }, 
+                                         { 5, 8, 8, 8, 7 }, 
+                                         { 6, 5, 9, 7, 9 }, 
+                                         { 7, 7, 9, 7, 8 }, 
+                                         { 8, 5, 8, 5, 5 } };
             int rows = mas.GetUpperBound(0) + 1;
             int columns = mas.Length / rows;
 
@@ -42,8 +46,9 @@ namespace Tyuiu.GurevskayaVE.Sprint4.Task3.V29
             {
                 for (int j = 0; j < columns; j++)
                 {
-                    Console.WriteLine($"{mas[i, j]} \t");
+                    Console.Write($"{mas[i, j]} \t");
                 }
+                Console.WriteLine();
             }
 
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
