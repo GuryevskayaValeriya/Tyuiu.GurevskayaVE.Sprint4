@@ -33,13 +33,11 @@ namespace Tyuiu.GurevskayaVE.Sprint4.Task5.V9
             DataService ds = new DataService();
             Random rnd = new Random();
 
-            Console.Write("Введите количество строк в массиве: ");
-            int rows = Convert.ToInt32(Console.ReadLine());
+            
+            int rows = 5;
+            int columns = 5;
+            int[,] matrix = new int[5,5];
 
-            Console.Write("Введите количество столбцов в массиве: ");
-            int columns = Convert.ToInt32(Console.ReadLine());
-
-            int[,] matrix = new int[rows, columns];
             Console.WriteLine("***************************************************************************");
 
             for (int i = 0; i < rows; i++)
